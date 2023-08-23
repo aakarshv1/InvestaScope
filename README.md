@@ -1,5 +1,5 @@
 # InvestaScope
-Envisioning Your Financial Journey!
+Envision you financial journey with InvestaScope, a simple Python command-line tool that can yield valuable portfolio performance metrics from a simple csv file of your investment history.
 
 ## Tool Setup
 1. Set up python virtual environment:
@@ -8,10 +8,11 @@ python(3) -m venv investascope_env
 ```   
 2. Generate free API Key from [Alpha Vantage](https://www.alphavantage.co/)
 3. Input API Key to `configtemplate.ini` and change file name to `config.ini`
+4. Generate a CSV file of your activities and orders history from your brokerage platform.
 
 ## Usage
-- **-f, --csv_file**: Specify the path to the CSV file containing transaction history 
-- **-c, --investment_company**: Required. Provide the name of the investment company to correctly interpret the format of the transaction history.
+- **-f, --csv_file**: Specify the path to the CSV file containing activity/orders history 
+- **-c, --investment_company**: Required. Provide the name of the investment company to correctly interpret the format of the activity/orders history.
 - **-g, --growth_type**: Required. Choose the type of growth calculation ("money" or "percentage")
 - **-d, --include_dividend**: Include this flag to factor in dividends when performing calculations.
 
