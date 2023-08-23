@@ -1,5 +1,5 @@
 # InvestaScope
-Envision you financial journey with InvestaScope, a simple Python command-line tool that can yield valuable portfolio performance metrics from a simple csv file of your investment history!
+Envision your financial journey with InvestaScope, a simple Python command-line tool that can yield valuable portfolio performance metrics from a simple csv file of your investment history!
 
 ## Tool Setup
 1. Set up python virtual environment and activate:
