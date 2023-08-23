@@ -7,10 +7,6 @@ Envision you financial journey with InvestaScope, a simple Python command-line t
 python(3) -m venv investascope_env
 source investascope_env/bin/activate
 ```
-To deactivate run
-```sh
-deactivate
-```
 2. Install necessary packages by running the following command:
 ```sh
 pip install -r requirements.txt
@@ -36,5 +32,6 @@ Example Result (Portfolio Percent Change):
 ## Features Currently in Development
 - support for more formats of transaction history from various brockerage platforms
 - more types of metrics such as sector breakdown and dividend yield
+- Docker container for easier setup
    
 
