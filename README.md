@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## Usage
 - **-f, --csv_file**: Specify the path to the CSV file containing activity/orders history 
-- **-c, --investment_company**: Required. Provide the name of the investment company to correctly interpret the format of the activity/orders history.
+- **-c, --investment_company**: Required. Provide the name of the brokerage platform to correctly interpret the format of the activity/orders history. Currently, only Fidelity Investments is supported.
 - **-g, --growth_type**: Required. Choose the type of growth calculation ("money" or "percentage")
 - **-d, --include_dividend**: Include this flag to factor in dividends when performing calculations.
 
