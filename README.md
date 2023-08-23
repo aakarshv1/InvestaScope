@@ -2,10 +2,15 @@
 Envision you financial journey with InvestaScope, a simple Python command-line tool that can yield valuable portfolio performance metrics from a simple csv file of your investment history!
 
 ## Tool Setup
-1. Set up python virtual environment:
+1. Set up python virtual environment and activate:
 ```sh
 python(3) -m venv investascope_env
-```   
+source investascope_env/bin/activate
+```
+To deactivate run
+```sh
+deactivate
+```
 2. Install necessary packages by running the following command:
 ```sh
 pip install -r requirements.txt
