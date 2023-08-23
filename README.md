@@ -6,9 +6,13 @@ Envision you financial journey with InvestaScope, a simple Python command-line t
 ```sh
 python(3) -m venv investascope_env
 ```   
-2. Generate free API Key from [Alpha Vantage](https://www.alphavantage.co/)
-3. Input API Key to `configtemplate.ini` and change file name to `config.ini`
-4. Generate a CSV file of your activities and orders history from your brokerage platform.
+2. Install necessary packages by running the following command:
+```sh
+pip install -r requirements.txt
+```
+4. Generate free API Key from [Alpha Vantage](https://www.alphavantage.co/)
+5. Input API Key to `configtemplate.ini` and change file name to `config.ini`
+6. Generate a CSV file of your activities and orders history from your brokerage platform.
 
 ## Usage
 - **-f, --csv_file**: Specify the path to the CSV file containing activity/orders history 
