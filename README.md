@@ -29,7 +29,7 @@ Example Result (Portfolio Percent Change):
 ![example](https://github.com/aakarshv1/InvestaScope/assets/23005664/e0e2ca07-df63-4bb7-af4c-5341027f4e92)
 
 
-## Features Currently in Development
+## Features in Development
 - support for more formats of transaction history from various brockerage platforms
 - more types of metrics such as sector breakdown and dividend yield
 - Docker container for easier setup
